@@ -1,35 +1,19 @@
 import pyautogui
 import time
+
 def automatizar_001():
     pyautogui.hotkey("win", "r")
-    pyautogui.write("cmd")
+    time.sleep(1)
+    pyautogui.press('backspace')
+    pyautogui.write(r"code C:\Users\CHRISTOPHERGABRIELMA\Desktop\tudo\pyautogui")
     time.sleep(1)
     pyautogui.press("enter")
-    time.sleep(3)
-    pyautogui.click(x=774, y=407)
-    time.sleep(5)
-    pyautogui.write("cd Desktop")
-    pyautogui.press("enter")
-    pyautogui.write("cd Tudo")
-    pyautogui.press("enter")
-    pyautogui.write("cd pyautogui")
-    pyautogui.press("enter")
-    pyautogui.write("code .")
-    pyautogui.press("enter")
+
 
 def automatizar_002():
     pyautogui.hotkey("win", "r")
-    pyautogui.write("cmd")
+    time.sleep(2)
+    pyautogui.press('backspace')
+    pyautogui.write(r"code C:\Users\CHRISTOPHERGABRIELMA\Desktop\tudo\hora de codar")
     time.sleep(1)
-    pyautogui.press("enter")
-    time.sleep(3)
-    pyautogui.click(x=774, y=407)
-    time.sleep(5)
-    pyautogui.write("cd Desktop")
-    pyautogui.press("enter")
-    pyautogui.write("cd tudo")
-    pyautogui.press("enter")
-    pyautogui.write("cd hora de codar")
-    pyautogui.press("enter")
-    pyautogui.write("code .")
     pyautogui.press("enter")
